@@ -15,12 +15,10 @@ Odoo est distribué en version communautaire et Enterprise. ICGROUP souhaite avo
 #### pgadmin
 **pgAdmin** devra être utilisée pour administrer de façon graphique la base de données PostgreSQL, qui est un composant essentiel au fonctionnement de odoo. 
 
-Liens utiles : 
-
+##### Liens utiles : 
 - Site officiel de odoo:[ https://www.odoo.com/ ](https://www.odoo.com/) 
 - GitHub officiel de odoo:[ https://github.com/odoo/odoo.git ](https://github.com/odoo/odoo.git) 
 - Docker Hub officiel de odoo:[ https://hub.docker.com/_/odoo ](https://hub.docker.com/_/odoo) 
-
 - Site officiel de pgadmin:[ https://www.pgadmin.org/ ](https://www.pgadmin.org/) 
 - Docker Hub officiel de pgadmin:[ https://hub.docker.com/r/dpage/pgadmin4/ ](https://hub.docker.com/r/dpage/pgadmin4/) 
 
