@@ -1,5 +1,5 @@
 ﻿# PROJET FINAL DEVOPS. 
-
+![](images/baniere.PNG)
 - [PROJET FINAL DEVOPS.](#projet-final-devops)
   - [Introduction](#introduction)
       - [odoo](#odoo)
@@ -100,7 +100,7 @@ Le Pipeline devra faire les actions suivantes:
     - Le code terraform permettant de créer vos serveurs devra être présent dans votre dépot gitlab
     - Ce code terraform doit utiliser la notion de modules, afin de variabilisr au maximum votre déploiement.
     - ``Docker`` et ``Docker compose`` doivent être installés sur ces machines
- 5)  Déploiement des applications sur les deux serveurs de staging et de prod
+ 5) Déploiement des applications sur les deux serveurs de staging et de prod
     - Les applications à déployer sont ``ic-webapp``, ``odoo`` et sa base de donnée ``postgresql``, ``pgadmin``
     - Au déploiement de ic-webapp, ses variables d'envirronnement doivent cette fois ci pointer vers les applications odoo et pgadmin installées par vos soins.
     - Le déploiement doit se faire à l'aide de l'outil ``docker-compose``, celà sous entend que vous devez disposer d'un fichier ``docker-compose.yml`` et le mettre dans votre dépôt gitlab.
