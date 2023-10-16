@@ -150,7 +150,7 @@ Ce fichier doit être situé au niveau du conteneur dans le répertoire : ``/pga
 
  ### e. Test de fonctionnement et rapport final
 
-Lancez l’exécution de votre pipeline afin de déployer les différentes applications demandés. Testez le bon fonctionnement de vos différentes applications et n’hésitez pas à prendre des captures d’écran le plus possible afin de consolider votre travail dans un rapport final qui présentera dans les moindre détails ce que vous avez fait. 
+Lancez l’exécution de votre pipeline afin de déployer les différentes applications demandés. Testez le bon fonctionnement de vos différentes applications et n’hésitez pas à prendre des captures d’écran le plus possible afin de consolider votre travail dans un rapport final qui présentera dans les moindre détails ce que vous avez fait. Le rapport doit être élaboré en ``Markdown`` dans votre dépôt git.
 
  ## 4) ANNEXE
 
@@ -162,4 +162,4 @@ Ci-dessous un exemple de description des qualifications souhaitées pour un post
 
 Compte tenu de tout cela, je vous invite tous à donner de l’importance à ce volet « rapport » de votre projet final, car c’est également une partie très importante qui devra pouvoir décrire le contenu de l’ensemble de votre travail.  
 
-Merci de le rédiger correctement avec les captures d’écran, commentaires et explications qui vont bien car cette partie sera prise en compte dans votre note finale.
+Merci de le rédiger correctement avec les captures d’écran, commentaires et explications qui vont bien.
