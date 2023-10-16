@@ -1,26 +1,26 @@
 ﻿# PROJET FINAL DEVOPS. 
 ![](images/baniere.PNG)
 - [PROJET FINAL DEVOPS.](#projet-final-devops)
-  - [Introduction](#introduction)
+  - [INTRODUCTION](#introduction)
       - [odoo](#odoo)
       - [pgadmin](#pgadmin)
       - [Liens utiles](#liens-utiles)
-  - [1) Conteneurisation de l’application web.](#1-conteneurisation-de-lapplication-web)
+  - [**PARTIE 1: Conteneurisation de l’application web**](#partie-1-conteneurisation-de-lapplication-web)
     - [Processus de conteneurisation](#processus-de-conteneurisation)
     - [Nom de l'artefact et registre utilisé](#nom-de-lartefact-et-registre-utilisé)
-  - [2) Mise en place d'un pipeline CI/CD à l'aide de Gitlab-CI et Terraform.](#2-mise-en-place-dun-pipeline-cicd-à-laide-de-gitlab-ci-et-terraform)
+  - [**PARTIE 2: Mise en place d'un pipeline CI/CD à l'aide de Gitlab-CI et Terraform**](#partie-2-mise-en-place-dun-pipeline-cicd-à-laide-de-gitlab-ci-et-terraform)
     - [a. Infrastructure](#a-infrastructure)
     - [b. Etapes du pipeline CICD](#b-etapes-du-pipeline-cicd)
     - [c. Customisation de la conteneurisation](#c-customisation-de-la-conteneurisation)
-  - [3) Déploiement des différentes applications dans un cluster Kubernetes.](#3-déploiement-des-différentes-applications-dans-un-cluster-kubernetes)
+  - [**PARTIE 3: Déploiement des différentes applications dans un cluster Kubernetes**](#partie-3-déploiement-des-différentes-applications-dans-un-cluster-kubernetes)
     - [a. Architecture](#a-architecture)
     - [b. Installation de Kubernetes](#b-installation-de-kubernetes)
     - [c. Déploiement de l’application Odoo](#c-déploiement-de-lapplication-odoo)
     - [d. Déploiement de PgAdmin](#d-déploiement-de-pgadmin)
     - [e. Test de fonctionnement et rapport final](#e-test-de-fonctionnement-et-rapport-final)
-  - [4) ANNEXE](#4-annexe)
+  - [ANNEXE](#annexe)
 
-## Introduction
+## INTRODUCTION
 
 La société **IC GROUP** dans laquelle vous travaillez en tant qu’ingénieur Devops souhaite mettre sur pied un site web vitrine devant permettre d’accéder à ses 02 applications phares qui sont :  
 
@@ -52,7 +52,7 @@ Ci-dessous un aperçu du site vitrine attendu.
 **NB:** L’image créée devra permettre de lancer un conteneur permettant d’héberger ce site web et ayant les liens adéquats permettant d’accéder à aux applications internes 
 
 
-## 1) Conteneurisation de l’application web.
+## **PARTIE 1: Conteneurisation de l’application web**
 
 Il s’agit d’une application web développée en python. Cette application utilise la librairie ``Flask`` de python. 
 
@@ -76,7 +76,7 @@ Une fois le test terminé, supprimez le conteneur de test et poussez votre image
 - **Nom du conteneur de test:** ``test-ic-webapp``
 
 
-## 2) Mise en place d'un pipeline CI/CD à l'aide de Gitlab-CI et Terraform.
+## **PARTIE 2: Mise en place d'un pipeline CI/CD à l'aide de Gitlab-CI et Terraform**
 ![](images/pipeline.jpeg)
 L'entreprise ICGROUP souhaite mettre en place un pipeline CI/CD permettant l'intégration et le déploiement en continu de cette solution sur leurs différentes machines dans différents environnements. L'entreprise étant fan de nouvelles technologies, elle a opté pour Gitlab-CI comme outil de mise en place du Pipeline CICD.
 
@@ -117,7 +117,7 @@ Cela pourrait se faire à l'aide  des commandes ``awk`` et ``export``. Ci-dessou
 ![](images/export_var.jpeg)
 
 
-## 3) Déploiement des différentes applications dans un cluster Kubernetes.
+## **PARTIE 3: Déploiement des différentes applications dans un cluster Kubernetes**
 
 ### a. Architecture
 L'entreprise souhaites à présent migrer ses applications sur cluster ``Kubernetes``, car semblerait -il que cette solution d'orchestration offre plus de possibilité que la solution native de docker, ``docker SWARM``. On se propose donc de donner une amélioration du Pipeline intégrant celà. Les applications pourront être déployées dans le cluster, selon l'architecture suivante:
@@ -152,7 +152,7 @@ Ce fichier doit être situé au niveau du conteneur dans le répertoire : ``/pga
 
 Lancez l’exécution de votre pipeline afin de déployer les différentes applications demandés. Testez le bon fonctionnement de vos différentes applications et n’hésitez pas à prendre des captures d’écran le plus possible afin de consolider votre travail dans un rapport final qui présentera dans les moindre détails ce que vous avez fait. Le rapport doit être élaboré en ``Markdown`` dans votre dépôt git.
 
- ## 4) ANNEXE
+ ## ANNEXE
 
 Ci-dessous un exemple de description des qualifications souhaitées pour un poste de Devops 
 
