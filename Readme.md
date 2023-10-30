@@ -41,6 +41,8 @@ Odoo est distribué en version communautaire et Enterprise. ICGROUP souhaite avo
 - Docker Hub officiel de odoo:[ https://hub.docker.com/_/odoo ](https://hub.docker.com/_/odoo) 
 - Site officiel de pgadmin:[ https://www.pgadmin.org/ ](https://www.pgadmin.org/) 
 - Docker Hub officiel de pgadmin:[ https://hub.docker.com/r/dpage/pgadmin4/ ](https://hub.docker.com/r/dpage/pgadmin4/) 
+- Exemple de Pipeline brouillon à améliorer pour vos besoins: https://gitlab.com/Choco92/kandidatapp/
+- Mise en place du worker gitlab: https://github.com/gkossi/gitlab-ci-training/tree/main/Lab-1_BUILD et https://www.youtube.com/watch?v=upocyCJMp0g
 
 
 Le site web vitrine a été conçu par l’équipe de développeurs de l’entreprise et les fichiers y relatifs se trouvent dans le repo suivant: [ https://github.com/sadofrazer/ic-webapp.git ](https://github.com/sadofrazer/ic-webapp.git). Il est de votre responsabilité de conteneuriser cette application tout en permettant la saisie des différentes URL des applications (Odoo et pgadmin) par le biais des variables d’environnement. 
